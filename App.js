@@ -68,7 +68,7 @@ const MainScreen = ({ navigation }) => {
 
     const numericAmount = parseFloat(amount);
     if (isNaN(numericAmount) || numericAmount <= 0) {
-      return "Amount must be a positive number.";
+      return "Amount must be a positive, non-zero number.";
     }
 
     return null; // no error
