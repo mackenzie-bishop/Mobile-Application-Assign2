@@ -318,7 +318,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   buttonDisabled: {
-    opacity: 0.6,
+    opacity: 0.7,
   },
   buttonText: {
     color: "#fff",
