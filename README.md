@@ -14,3 +14,8 @@ npx expo start
 
 ## API Key
 This app uses FreeCurrencyAPI. Insert your API key in App.js.
+
+## Requirements
+- Node.js
+- Expo CLI
+- React Native environment
