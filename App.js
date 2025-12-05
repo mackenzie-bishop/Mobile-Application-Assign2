@@ -237,8 +237,8 @@ const AboutScreen = () => {
             This Android React Native application converts an amount from a base
             currency into a desired currency. It uses the FreeCurrencyAPI
             service to fetch the latest exchange rates, validates user input,
-            and will display clear error messages when something goes wrong
-            (network issues, invalid currency codes).
+            and displays clear error messages when something goes wrong
+            (like network issues or invalid currency codes).
           </Text>
         </View>
       </View>
