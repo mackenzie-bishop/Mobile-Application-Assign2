@@ -1,6 +1,5 @@
 // Assignment 2 - Currency Converter - Mackenzie Bishop
 
-
 import React, { useState } from "react";
 import {
   ActivityIndicator,
@@ -43,7 +42,6 @@ const LabeledInput = ({
 );
 
 // Main screen: handles currency conversion logic
-
 const MainScreen = ({ navigation }) => {
   const [baseCurrency, setBaseCurrency] = useState("CAD");
   const [targetCurrency, setTargetCurrency] = useState("");
@@ -94,7 +92,6 @@ const MainScreen = ({ navigation }) => {
       const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${FREE_CURRENCY_API_KEY}&base_currency=${base}&currencies=${target}`;
 
       // Build API request URL for FreeCurrencyAPI (latest rates)
-
       const response = await fetch(url);
 
       if (!response.ok) {
