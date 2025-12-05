@@ -54,6 +54,7 @@ const MainScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(false);
 
   const validateInput = () => {
+    // Validate that currency codes follow 3-letter uppercase ISO format
     const currencyRegex = /^[A-Z]{3}$/;
 
     if (!currencyRegex.test(baseCurrency.trim())) {
