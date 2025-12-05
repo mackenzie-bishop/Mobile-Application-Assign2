@@ -6,3 +6,8 @@ Features:
 - Input validation
 - API integration
 - Navigation between screens
+
+## Running the App
+
+npm install  
+npx expo start
