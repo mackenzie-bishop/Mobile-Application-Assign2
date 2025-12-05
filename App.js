@@ -248,7 +248,7 @@ const AboutScreen = () => {
 
 // ---------- Navigation setup ----------
 const Stack = createNativeStackNavigator();
-
+// Root component that sets up stack navigation between Main and About screens
 const App = () => {
   return (
     <NavigationContainer>
