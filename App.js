@@ -42,7 +42,8 @@ const LabeledInput = ({
   </View>
 );
 
-// ---------- MainScreen ----------
+// Main screen: handles currency conversion logic
+
 const MainScreen = ({ navigation }) => {
   const [baseCurrency, setBaseCurrency] = useState("CAD");
   const [targetCurrency, setTargetCurrency] = useState("");
