@@ -393,5 +393,6 @@ const styles = StyleSheet.create({
   aboutDescription: {
     fontSize: 14,
     color: "#333",
+    lineHeight: 20,
   },
 });
