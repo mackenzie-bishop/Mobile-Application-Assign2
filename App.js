@@ -217,7 +217,8 @@ const MainScreen = ({ navigation }) => {
   );
 };
 
-// ---------- AboutScreen ----------
+// About screen: shows name, student ID, and app purpose
+
 const AboutScreen = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
