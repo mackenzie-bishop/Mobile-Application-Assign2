@@ -1,3 +1,6 @@
+// Assignment 2 - Currency Converter - Mackenzie Bishop
+
+
 import React, { useState } from "react";
 import {
   ActivityIndicator,
