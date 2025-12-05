@@ -93,6 +93,8 @@ const MainScreen = ({ navigation }) => {
     try {
       const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${FREE_CURRENCY_API_KEY}&base_currency=${base}&currencies=${target}`;
 
+      // Build API request URL for FreeCurrencyAPI (latest rates)
+
       const response = await fetch(url);
 
       if (!response.ok) {
