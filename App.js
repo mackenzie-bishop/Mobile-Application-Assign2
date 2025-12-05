@@ -144,6 +144,7 @@ const MainScreen = ({ navigation }) => {
           Enter a base currency, destination currency, and amount.
         </Text>
 
+        // Reusable component for input fields
         <LabeledInput
           label="Base Currency (e.g., CAD)"
           value={baseCurrency}
