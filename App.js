@@ -88,6 +88,7 @@ const MainScreen = ({ navigation }) => {
     const target = targetCurrency.trim().toUpperCase();
 
     setLoading(true);
+    // Attempt API call and handle possible network or API errors
     try {
       const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${FREE_CURRENCY_API_KEY}&base_currency=${base}&currencies=${target}`;
 
